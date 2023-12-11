@@ -1,0 +1,60 @@
+.main-container {
+    background-color: skyblue;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    color: rgb(107, 15, 117);
+}
+
+.input {
+    width: 50px;
+    height: 30px;
+    border: none;
+    outline-color: darkgrey;
+    font-size: 20px;
+}
+
+.edititems {
+    min-width: 500px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+.textarea {
+    min-width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+@media screen and (max-width:425px) {
+    .textarea {
+        min-width: 350px;
+    }
+
+    .edititems {
+        min-width: 300px;
+    }
+}
